@@ -151,7 +151,7 @@
 
         snapshot.forEach(function(data){
 
-            var tFrequency = data.val().rate;
+           var tFrequency = data.val().rate;
 
             var firstTimeConverted = moment(data.val().start, "HH:mm").subtract(1, "years");
             console.log(firstTimeConverted);
